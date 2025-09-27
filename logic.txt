@@ -1,0 +1,5 @@
+* Next Js App Router : Folder App adalah tempat file static di definisikan contoh setiap nama file harus page.tsx 
+App/Pages/Home/Page.tsx ===> http://localhost:3000/pages/Home 
+
+
+* roadmap request api : 

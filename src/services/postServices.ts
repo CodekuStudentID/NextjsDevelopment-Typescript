@@ -21,3 +21,4 @@ export async function Store(data : {title: string, content: string}) {
 }
 
 
+
