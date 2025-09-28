@@ -20,5 +20,17 @@ export async function Store(data : {title: string, content: string}) {
     return newPost;
 }
 
+export async function deletePost(postId: string): Promise<Response> {
+  
+  const response = await fetch(`/api/posts/${postId}`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+
+  return response;
+}
+
 
 

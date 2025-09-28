@@ -3,3 +3,4 @@ App/Pages/Home/Page.tsx ===> http://localhost:3000/pages/Home
 
 
 * roadmap request api : 
+Components --> API Route (Import Method Services) --> data di teruskan ke --> Services (Data Dikelola)
