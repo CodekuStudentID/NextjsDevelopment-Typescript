@@ -62,7 +62,7 @@ export default function Form () {
                        Buat Postingan Baru
                     </h1>
                     <Link 
-                        href="/pages"
+                        href="/"
                         className="text-sm text-indigo-600 hover:text-indigo-800 font-medium transition duration-200"
                     >
                         &larr; Kembali ke Daftar Post
