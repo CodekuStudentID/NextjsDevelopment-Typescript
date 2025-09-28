@@ -2,9 +2,10 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { deletePost } from "@/services/postServices";
+import { Post } from "@/models/postModel";
 
 export default function Page () {
-    const [post, setPost] = useState<any[]>([]);
+    const [post, setPost] = useState<Post[]>([]);
 
 /* fungsi untuk fetching API dari path app/api/posts. mengambil data dari FE dan Meneruskan ke route dan diteruskan ke service */
     const getData = async () => {

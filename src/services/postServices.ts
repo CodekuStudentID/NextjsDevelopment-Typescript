@@ -1,6 +1,6 @@
 import { Post } from "@/models/postModel";
 
-let posts: Post[] = [];
+const posts: Post[] = [];
 let id = 1;
 
 /* fungsi get semua post */
